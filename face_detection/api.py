@@ -69,7 +69,7 @@ class FaceAlignment:
 
         # Get the face detector
         face_detector_module = __import__(
-            "app.face_detection.detection." + face_detector,
+            "face_detection.detection." + face_detector,
             globals(),
             locals(),
             [face_detector],
